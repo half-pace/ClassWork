@@ -32,6 +32,32 @@ html, body {
     margin-bottom: 40px;
 }
 
+/*.mark-wrap {
+    background-color: #fff7f0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(100%);
+    }
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+.mark {
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+}
+
+.mark span {
+    margin-right: 50px;
+}*/
+
 .header .h1 {
     position: relative;
     font-family: "Anton", serif;
