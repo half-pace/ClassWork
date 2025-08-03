@@ -1,0 +1,240 @@
+/*
+
+#262523
+#fff7f0
+
+rgb(9, 10, 12)
+rgb(255, 253, 250)
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    /*overflow: hidden;*/
+    background-color: #fff7f0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.header .h1 {
+    position: relative;
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 25vw;
+    line-height: 1.525;
+}
+
+.container {
+    border-top: 0.5px solid #262523;
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: wheat;*/
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+    margin: 20px;
+}
+
+.profile-bio {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: black;*/
+    bottom: 12rem;
+    width: 70%;
+    height: 70%;
+    left: 10rem;
+}
+
+.profile-bio h1 {
+    font-family: "Anton", serif;
+    color: #262523;
+    font-weight: normal;
+}
+
+.profile h2 {
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 70px;
+    line-height: 1.5;
+    position: relative;
+    right: 35.5rem;
+}
+
+#para1 {
+    font-family: "Anton", serif;
+    color: #262523;
+    line-height: 1.5;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#list {
+    font-family: "Anton", serif;
+    color: #262523;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.profile-img {
+    position: relative;
+    right: 32.5rem;
+    bottom: -2rem;
+}
+
+.avatar {
+    max-width: 19.5rem;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 4px solid #fff;
+}
+
+.container-links {
+    border-top: 0.5px solid #262523;
+    display: flex;
+}
+
+.links-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*background-color: wheat;*/
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 100%;
+    margin: 20px;
+}
+
+.links-wrap h2 {
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 70px;
+    line-height: 1.5;
+    position: relative;
+    right: 35.5rem;
+}
+
+.links {
+    /*background-color: wheat;*/
+    height: 100%;
+    width: 90%;
+    margin: 30px;
+}
+
+#btn1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.2rem;
+    padding: 20px;
+    cursor: pointer;
+    border-top: 1px solid #262523;
+    background-color: #fff7f0;
+    color: #262523;
+    text-decoration: none;
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+#btn2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.2rem;
+    padding: 20px;
+    cursor: pointer;
+    border-top: 1px solid #262523;
+    background-color: #fff7f0;
+    text-decoration: none;
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+#btn3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0.2rem;
+    padding: 20px;
+    cursor: pointer;
+    border-top: 1px solid #262523;
+    background-color: #fff7f0;
+    text-decoration: none;
+    font-family: "Anton", serif;
+    color: #262523;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+btn1:hover {
+    background-color: #262523;
+    color: #fff7f0;
+}
+
+
+
+/*.profile {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 200px;
+    border-radius: 20px;
+}
+
+.socials {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 200px;
+    border-radius: 20px;
+}
+
+.profile-img {
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+    background-size: cover;
+    border-radius: 20px 0px 0px 0;
+    border:0.5px solid aliceblue;
+}
+
+.social-img {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.img-1 {
+    background-image: url('profile.jpg');
+}
+
+*/
+
