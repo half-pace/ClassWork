@@ -66,7 +66,7 @@ html, body {
     line-height: 1.525;
 }
 
-.container {
+.container-wrap {
     border-top: 0.5px solid #262523;
     display: flex;
 }
@@ -75,24 +75,38 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;           /* this was changed col to row*/
+    gap: 100px;
     /*background-color: wheat;*/
     margin-top: 1rem;
     margin-left: 1rem;
     width: 100%;
     margin: 20px;
+    height: 100%;                    /*height was added*/
+}
+
+.profile-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;                        /*gap was added*/
+    margin-top: 0.1px;                /*this was changed -100 to 0.1*/
 }
 
 .profile-bio {
     display: flex;
-    position: relative;
+    flex-wrap: wrap;
+    
     justify-content: center;
     flex-direction: column;
     /*background-color: black;*/
-    bottom: 12rem;
-    width: 70%;
-    height: 70%;
-    left: 10rem;
+    /*bottom: 12rem;
+    position: relative;
+    left: 5rem;*/
+    width: 50%;
+    height: 70%;    
 }
 
 .profile-bio h1 {
@@ -106,8 +120,9 @@ html, body {
     color: #262523;
     font-size: 70px;
     line-height: 1.5;
-    position: relative;
-    right: 29.5rem;
+    padding-bottom: 10px;         /*padding was added*/
+    /*position: relative;
+    right: 29.5rem;*/
 }
 
 #para1 {
@@ -127,8 +142,8 @@ html, body {
 
 .profile-img {
     position: relative;
-    right: 25.8rem;
-    bottom: -2rem;
+    /*right: 25.8rem;
+    bottom: -2rem;*/
 }
 
 .avatar {
@@ -158,13 +173,20 @@ html, body {
     margin: 20px;
 }
 
+@media(max-width: 880px) {
+    #text3 {
+        padding-left: 40rem;
+    }
+}
+
 .links-wrap h2 {
     font-family: "Anton", serif;
     color: #262523;
     font-size: 70px;
     line-height: 1.5;
-    position: relative;
-    right: 29.5rem;
+    padding-right: 50rem;
+    /*position: relative;
+    right: 29.5rem;*/
 }
 
 .links {
