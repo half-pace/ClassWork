@@ -19,6 +19,8 @@ html, body {
     width: 100vw;
     /*overflow: hidden;*/
     background-color: #fff7f0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .header {
@@ -26,6 +28,8 @@ html, body {
     display: flex;
     justify-content: space-between;
     padding: 2em;
+    height: 100%;
+    margin-bottom: 40px;
 }
 
 .header .h1 {
@@ -191,13 +195,75 @@ html, body {
     color: #262523;
     font-size: 25px;
     line-height: 1.5;
+    position: relative;
 }
 
-btn1:hover {
+@keyframes spacing {
+    from {
+        letter-spacing: 0px;
+    }
+
+    to {
+        letter-spacing: 5px;
+    }
+}
+
+@keyframes spacing2 {
+    from {
+        padding-left: 20px;
+    }
+    to {
+        padding-left: 70px;
+    }
+}
+
+#text:hover {
+    text-decoration: underline;
+    animation-name: spacing;
+    animation-duration: 0.5s;
+}
+
+#text2:hover {
+    text-decoration: underline;
+    animation-name: spacing;
+    animation-duration: 0.5s;
+}
+
+#text3:hover {
+    text-decoration: underline;
+    animation-name: spacing;
+    animation-duration: 0.5s;
+}
+
+#btn1:hover {
     background-color: #262523;
     color: #fff7f0;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    animation-name: spacing2;
+    animation-duration: 1s;
 }
 
+#btn2:hover {
+    background-color: #262523;
+    color: #fff7f0;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    animation-name: spacing2;
+    animation-duration: 1s;
+}
+
+#btn3:hover {
+    background-color: #262523;
+    color: #fff7f0;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
+    animation-name: spacing2;
+    animation-duration: 1s;
+}
 
 
 /*.profile {
